@@ -2,11 +2,11 @@
   "name": "noderest",
   "version": "1.0.0",
   "description": "",
-  "main": "CRUDBookNoDB.js",
+  "main": "CRUDBBookSQLite.js",
   "scripts": {
-    "start": "node src/CRUDBookNoDB.js",
+    "start": "node src/CRUDBBookSQLite.js",
     "format": "prettier --write *.js",
-    "dev": "nodemon src/CRUDBookNoDB.js"
+    "dev": "nodemon src/CRUDBBookSQLite.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "sqlite3": "^5.1.4"
   }
 }
