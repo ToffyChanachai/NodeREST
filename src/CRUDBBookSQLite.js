@@ -4,8 +4,8 @@
 // Run this file with node CRUDBookSQLite.js
 // Test with Postman
 
-const express = req('express');
-const sqlite3 = reqiure('splite3');
+const express = require('express');
+const sqlite3 = require('splite3');
 const app = express();
 
 // conect to database
