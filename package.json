@@ -25,12 +25,8 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-<<<<<<< HEAD
-    "express": "^4.18.2"
-=======
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "sqlite3": "^5.1.4"
->>>>>>> 32a184a001e002a2994a61907592a89a6ac2dcbd
   }
 }
