@@ -5,7 +5,7 @@
 // Test with Postman
 
 const express = require('express');
-const sqlite3 = require('splite3');
+const sqlite3 = require('sqlite3');
 const app = express();
 
 // conect to database
@@ -22,13 +22,13 @@ db.run(`CREATE TABLE IF NOT EXISTS books (
 )`);
 
 // route to get all books
-app.get('/bokks', (req, res) => {
+app.get('/books', (req, res) => {
     db.all('SELECT * FROM books', (err, rows) => {
-        if (err) {
-            res.status(500).send(err);
-        } else {
-            res.json(rows);
-        }
+       if (err) {
+        res.status(500).send(err);
+       } else {
+        res.json(rows);
+       }
     });
 });
 

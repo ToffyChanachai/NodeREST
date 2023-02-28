@@ -2,11 +2,11 @@
   "name": "noderest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "CRUDBBookSQLite.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/CRUDBBookSQLite.js",
     "format": "prettier --write *.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/CRUDBBookSQLite.js"
   },
   "repository": {
     "type": "git",
